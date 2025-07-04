@@ -63,11 +63,14 @@ a {
 .top-image {
   flex-basis: 500px;
   background-color: blue;
-  flex: 1;
+  flex-shrink: 1;
+  /* flex: 1; */
+  text-align: center;
 }
 
 .top-container {
   background-color: yellow;
-  flex: 0;
+  /* flex: 0; */
+  flex-shrink: 1;
   flex-basis: 400px;
 }
