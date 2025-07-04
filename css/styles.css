@@ -43,16 +43,31 @@ a {
   font-weight: bold;
   color: black;
 }
-/* .link-container { */
-/* background-color: green; */
-/* display: flex; */
-/* justify-content: space-between; */
-/* width: 200px; */
-/* padding-bottom: 20px; */
-/* } */
 
 .caption {
   background-color: beige;
-  /* display: flex; */
-  width: 200px;
+  padding: 3em;
+  /* margin: 0 auto; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 2rem;
+  flex-wrap: wrap;
+  min-height: 50vh;
+}
+
+.img-text {
+  flex: 2;
+}
+
+.top-image {
+  flex-basis: 500px;
+  background-color: blue;
+  flex: 1;
+}
+
+.top-container {
+  background-color: yellow;
+  flex: 0;
+  flex-basis: 400px;
 }
