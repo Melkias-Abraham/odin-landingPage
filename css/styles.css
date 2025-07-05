@@ -42,16 +42,16 @@ a {
   color: black;
 }
 
+/* First section */
+
 .hero {
   background-color: beige;
   padding: 3em;
-  /* margin: 0 auto; */
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   gap: 2rem;
   flex-wrap: wrap;
-  min-height: 50vh;
 }
 
 .top-image {
@@ -85,3 +85,28 @@ a {
   color: white;
   border-radius: 15px;
 }
+
+/* image containers */
+.image-row {
+  background-color: blanchedalmond;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  border: 1px solid blue;
+  border-radius: 10px;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+/* quote container */
