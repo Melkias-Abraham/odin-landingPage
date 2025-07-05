@@ -12,7 +12,6 @@ body {
 
 li {
   list-style-type: none;
-  color: white;
 }
 
 a {
@@ -23,7 +22,6 @@ a {
 
 .header {
   background-color: gray;
-  border-bottom: 1px solid red;
 }
 
 .header-container {
@@ -44,7 +42,7 @@ a {
   color: black;
 }
 
-.caption {
+.hero {
   background-color: beige;
   padding: 3em;
   /* margin: 0 auto; */
@@ -56,21 +54,34 @@ a {
   min-height: 50vh;
 }
 
-.img-text {
-  flex: 2;
-}
-
 .top-image {
-  flex-basis: 500px;
+  width: 400px;
+  height: 200px;
   background-color: blue;
+  display: flex;
   flex-shrink: 1;
   /* flex: 1; */
-  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
-.top-container {
-  background-color: yellow;
-  /* flex: 0; */
+.text-container {
+  width: 400px;
+  height: 200px;
+  /* background-color: yellow; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   flex-shrink: 1;
+  gap: 10px;
   flex-basis: 400px;
+}
+
+.sign-up-button {
+  background: royalblue;
+  border: 1px solid royalblue;
+  width: 100px;
+  padding: 10px;
+  color: white;
+  border-radius: 15px;
 }
