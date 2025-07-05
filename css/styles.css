@@ -110,3 +110,7 @@ img {
 }
 
 /* quote container */
+
+.quote-container {
+  background-color: chocolate;
+}
