@@ -79,7 +79,8 @@ a {
   flex-basis: 400px;
 }
 
-.sign-up-button {
+.sign-up-button,
+.sign-up-button-modal {
   background: royalblue;
   border: 1px solid royalblue;
   width: 100px;
@@ -141,10 +142,16 @@ img {
   padding: 20px;
   margin: 50px;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
+}
+
+.sign-up-button-modal {
+  border: 1px solid white;
 }
 
 footer {
   background-color: aquamarine;
+  text-align: center;
+  padding: 15px;
 }
