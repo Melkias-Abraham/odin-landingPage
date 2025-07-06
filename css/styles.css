@@ -129,6 +129,22 @@ img {
   padding: 100px;
 }
 
+/* modal */
+
+.modal-container {
+  background-color: red;
+  border: 5px solid salmon;
+}
+
+.modal {
+  background-color: blue;
+  padding: 20px;
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 footer {
   background-color: aquamarine;
 }
