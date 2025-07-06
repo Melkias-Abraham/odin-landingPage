@@ -16,14 +16,13 @@ li {
 }
 
 a {
-  color: white;
   text-decoration: none;
-  font-size: 24px;
 }
 
 .header {
-  background-color: gray;
+  background-color: #1f2937;
   text-align: justify;
+  font-family: Roboto;
 }
 
 .header-container {
@@ -39,16 +38,29 @@ a {
 }
 
 .logo {
-  font-size: 1.5em;
+  font-size: 24px;
   font-weight: bold;
-  color: black;
+  color: #f9faf8;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf9;
+}
+
+.hero-text,
+a {
+  font-size: 18px;
+  color: #e5e7eb;
 }
 
 /* First section */
 
 .hero {
-  background-color: beige;
-  padding: 3em;
+  background-color: #1f2937;
+  color: white;
+  padding: 4em;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -58,11 +70,9 @@ a {
 
 .top-image {
   width: 400px;
-  height: 200px;
-  background-color: blue;
+  height: 250px;
   display: flex;
   flex-shrink: 1;
-  /* flex: 1; */
   justify-content: center;
   align-items: center;
 }
@@ -125,9 +135,14 @@ img {
 .quote-container {
   background-color: chocolate;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 100px;
+}
+
+.credit {
+  align-self: flex-end;
 }
 
 /* modal */
