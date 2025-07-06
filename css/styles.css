@@ -75,12 +75,13 @@ a {
   flex-shrink: 1;
   justify-content: center;
   align-items: center;
+  border-style: none;
+  border-radius: 0;
 }
 
 .text-container {
   width: 400px;
   height: 200px;
-  /* background-color: yellow; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -91,8 +92,8 @@ a {
 
 .sign-up-button,
 .sign-up-button-modal {
-  background: royalblue;
-  border: 1px solid royalblue;
+  background: #3882f6;
+  border-style: none;
   width: 100px;
   padding: 10px;
   color: white;
@@ -101,10 +102,9 @@ a {
 
 /* image containers */
 .image-row {
-  background-color: blanchedalmond;
   display: flex;
   justify-content: center;
-  padding: 20px;
+  padding-bottom: 100px;
   gap: 30px;
 }
 
@@ -117,6 +117,7 @@ img {
 
 .caption {
   width: 150px;
+  text-align: center;
 }
 
 .item {
@@ -126,14 +127,19 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  color: #1f2937;
   display: flex;
   justify-content: center;
+  padding: 30px;
 }
 
 /* quote container */
 
 .quote-container {
-  background-color: chocolate;
+  background-color: #e5e7eb;
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -148,12 +154,14 @@ img {
 /* modal */
 
 .modal-container {
-  background-color: red;
-  border: 5px solid salmon;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .modal {
-  background-color: blue;
+  background-color: #3882f6;
+  width: 800px;
   padding: 20px;
   margin: 50px;
   display: flex;
@@ -166,7 +174,8 @@ img {
 }
 
 footer {
-  background-color: aquamarine;
+  background-color: #1f2937;
+  color: #e5e7eb;
   text-align: center;
   padding: 15px;
 }
